@@ -11,7 +11,7 @@ This is a signup page built using **React** and **Material UI**, featuring a bac
 - **Material UI**: add material ui components for inputs.
 
 ## Preview 📸
-
+Open the project click [here](https://naveenkumar-developer.github.io/Signup-Page/)
 ![signup page img](./src/assets/signupPage.png)
 
 ## Technologies Used 🛠️
