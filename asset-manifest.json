@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Signup-Page/static/css/main.9d124d29.css",
+    "main.js": "/Signup-Page/static/js/main.7a0f989f.js",
+    "static/js/453.fb4c1376.chunk.js": "/Signup-Page/static/js/453.fb4c1376.chunk.js",
+    "static/media/backgroundVideo.mp4": "/Signup-Page/static/media/backgroundVideo.1ca0d107b0a8578631f1.mp4",
+    "static/media/banner.jpg": "/Signup-Page/static/media/banner.1cd9dfc76fe6d0f66c2e.jpg",
+    "static/media/twitter.png": "/Signup-Page/static/media/twitter.7e40f617aaa8eca864bb.png",
+    "static/media/whatsapp (1).png": "/Signup-Page/static/media/whatsapp (1).b1b801cf0375045d4f69.png",
+    "static/media/linkedin.png": "/Signup-Page/static/media/linkedin.032cf8a63be2f0f4d425.png",
+    "static/media/facebook.png": "/Signup-Page/static/media/facebook.8d51a55626e9bf107f8f.png",
+    "index.html": "/Signup-Page/index.html",
+    "main.9d124d29.css.map": "/Signup-Page/static/css/main.9d124d29.css.map",
+    "main.7a0f989f.js.map": "/Signup-Page/static/js/main.7a0f989f.js.map",
+    "453.fb4c1376.chunk.js.map": "/Signup-Page/static/js/453.fb4c1376.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d124d29.css",
+    "static/js/main.7a0f989f.js"
+  ]
+}
