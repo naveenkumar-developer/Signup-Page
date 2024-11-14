@@ -1,38 +1,132 @@
-.App {
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* OVER ALL CONTAINER  */
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: transparent;
+  overflow: hidden;
+}
+/* BANNER CONTAINER  */
+.banner_container {
+  width: 25%;
+  object-fit: cover;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+}
+
+.banner_container img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.title {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 40%;
+  left: 0;
+
+  z-index: 10;
+  font-size: 3rem;
+  color: whitesmoke;
+  text-align: center;
+  text-shadow: 0 0 5px black;
+}
+
+.highlightText {
+  margin-top: 10px;
+  background-color: green;
+  padding: 5px;
+  display: inline-block;
+}
+
+/* FORM AND BUTTONS CONTAINER  */
+.form_overallContainer {
+  width: 80%;
+  position: relative;
+}
+/* BACKGROUND VIDEO  */
+
+.background_video {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.button_wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 5%;
+  margin: 10px;
+}
+/* FORM AND WELCOME MESSAGE CONTAINER  */
+.row1 {
+  display: flex;
+  height: 80%;
+  justify-content: space-around;
+  margin-inline: 50px;
+}
+.welcome_msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 30px;
+}
+.welcome_msg .h1,
+.welcome_msg .h2 {
+  color: #fefae0;
+}
+.welcome_msg .h1 {
+  text-shadow: 0 0 5px black;
+}
+.form_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.paraColor {
+  color: #fefae0;
+}
+
+/* SOCIAL ICONS CONTAINER */
+
+.row2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.row2 h3 {
+  color: #d6ccc2;
+  width: 35%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.networksIcons {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 65%;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.networksIcons img {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  outline: 2px solid whitesmoke;
+  border-radius: 50%;
+  background-color: whitesmoke;
 }
